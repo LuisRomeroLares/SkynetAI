@@ -5,9 +5,56 @@ body {
 }
 
 main {
-  flex: 1 0 auto;
+  flex: 1;
+  padding-bottom: 50px;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.page-footer {
+  padding-top: 0;
 }
 
 .logo-view {
   align-items: center;
+}
+
+.brand-logo img {
+  height: inherit;
+}
+
+.logo-header {
+  height: 25vh;
+}
+
+.logo-header img {
+  height: inherit;
+  padding: 8px;
+}
+
+.small-text {
+  font-size: smaller;
+}
+
+.card-row {
+  display: flex;
+}
+
+.card-col {
+  height: auto;
+}
+
+.card-col .card {
+  height: 100%;
+}
+
+.card-col .card .card-content {
+  height: 20vh;
+  overflow: auto;
 }
