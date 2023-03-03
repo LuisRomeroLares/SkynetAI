@@ -5,9 +5,11 @@ body {
 }
 
 main {
+  display: flex;
   flex: 1;
-  padding-bottom: 50px;
-  padding-top: 16px;
+  margin-bottom: 50px;
+  margin-top: 16px;
+  align-items: center;
 }
 
 footer {
@@ -83,4 +85,9 @@ footer {
 .sidebar .logo {
   width: 100%;
   z-index: 99;
+}
+
+.responsive-h1 {
+  margin-top: 8px;
+  font-size: 8vh;
 }
