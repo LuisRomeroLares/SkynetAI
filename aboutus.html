@@ -37,10 +37,12 @@
               >
             </li>
             <li>
-              <a href="#"><i class="material-icons left">chat</i>Chat Bot</a>
+              <a href="chatbot.html"
+                ><i class="material-icons left">chat</i>Chat Bot</a
+              >
             </li>
             <li>
-              <a href="aboutus.html"
+              <a href="#"
                 ><i class="material-icons left">emoji_people</i>Acerca de
                 nosotros</a
               >
@@ -54,7 +56,6 @@
           >
             <a href="ayuda.html"><i class="material-icons">help</i></a>
           </div>
-        </div>
       </nav>
       <!-- END NAVBAR -->
       <!-- SIDENAV -->
@@ -74,10 +75,12 @@
           <a href="index.html"><i class="material-icons">home</i>Inicio</a>
         </li>
         <li>
-          <a href="#"><i class="material-icons left">chat</i>Chat Bot</a>
+          <a href="chatbot.html"
+            ><i class="material-icons left">chat</i>Chat Bot</a
+          >
         </li>
         <li>
-          <a href="aboutus.html"
+          <a href="#"
             ><i class="material-icons left">emoji_people</i>Acerca de
             nosotros</a
           >
@@ -92,19 +95,22 @@
 
     <!-- CONTENIDO PRINCIPAL -->
     <main>
-      <div class="container">
-        <script
-          SameSite="None; Secure"
-          src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"
-        ></script>
-        <div id="myLandbot" style="width: 100%; height: 700px"></div>
-        <script>
-          var myLandbot = new Landbot.Container({
-            container: "#myLandbot",
-            configUrl:
-              "https://storage.googleapis.com/landbot.online/v3/H-1501075-8OHZ4N7F11VC6A97/index.json",
-          });
-        </script>
+      <div style="height: 80vh;" class="row">
+        <!-- SIDEBAR -->
+        <div class="sidebar col m2 hide-on-small-only valign-wrapper">
+          <div class="background">
+            <img src="img/neuralnetwork.jpg">
+          </div>
+          <img class="logo" src="img/skynetai_nobg.png" alt="Skynet AI logo">
+        </div>
+        <!-- SIDEBAR END -->
+
+        <div class="col m10">
+          <h1>Acerca de nosotros</h1>
+          <p>
+            
+          </p>
+        </div>
       </div>
     </main>
     <!-- END CONTENIDO PRINCIPAL -->

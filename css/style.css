@@ -7,6 +7,7 @@ body {
 main {
   flex: 1;
   padding-bottom: 50px;
+  padding-top: 16px;
 }
 
 footer {
@@ -57,4 +58,29 @@ footer {
 .card-col .card .card-content {
   height: 20vh;
   overflow: auto;
+}
+
+.sidebar {
+  height: inherit;
+  position: relative;
+  justify-content: center;
+}
+
+.sidebar .background {
+  position: absolute;
+  opacity: 0.7;
+  height: inherit;
+  width: 90%;
+  z-index: -1;
+}
+
+.sidebar .background img {
+  height: inherit;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sidebar .logo {
+  width: 100%;
+  z-index: 99;
 }
