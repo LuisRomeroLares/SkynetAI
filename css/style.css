@@ -28,12 +28,20 @@ footer {
   align-items: center;
 }
 
+.nav-btn {
+  padding: 16px;
+}
+
+.nav-btn a {
+  width: 100%;
+}
+
 .brand-logo img {
   height: inherit;
 }
 
 .logo-header {
-  height: 25vh;
+  height: 15vh;
 }
 
 .logo-header img {
@@ -43,10 +51,6 @@ footer {
 
 .small-text {
   font-size: smaller;
-}
-
-.card-row {
-  display: flex;
 }
 
 .card-col {
@@ -90,4 +94,16 @@ footer {
 .responsive-h1 {
   margin-top: 8px;
   font-size: 8vh;
+}
+
+h1 i {
+  height: inherit;
+}
+
+.section .row {
+  margin-bottom: 0;
+}
+
+.parallax-container {
+  height: 150px;
 }
